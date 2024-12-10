@@ -3,11 +3,11 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'bloc/auth/auth_bloc.dart';
-import 'bloc/get_data/get_data_bloc.dart';
-import 'bloc/enter_data/enter_data_bloc.dart';
+import 'bloc/get_cine/get_cine_bloc.dart';
+import 'bloc/enter_cine/enter_cine_bloc.dart';
 import 'screens/login_screen.dart';
-import 'screens/get_data_screen.dart';
-import 'screens/enter_data_screen.dart';
+import 'screens/get_cine_screen.dart';
+import 'screens/enter_cine_screen.dart';
 import 'firebase_options.dart';
 
 void main() async {

@@ -1,7 +1,7 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'get_data_event.dart';
-import 'get_data_state.dart';
+import 'get_cine_event.dart';
+import 'get_cine_state.dart';
 
 class GetDataBloc extends Bloc<GetDataEvent, GetDataState> {
   GetDataBloc() : super(DataLoading()) {

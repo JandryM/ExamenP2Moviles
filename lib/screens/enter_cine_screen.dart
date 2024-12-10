@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import '../bloc/enter_data/enter_data_bloc.dart';
-import '../bloc/enter_data/enter_data_event.dart';
-import '../bloc/enter_data/enter_data_state.dart';
+import '../bloc/enter_cine/enter_cine_bloc.dart';
+import '../bloc/enter_cine/enter_cine_event.dart';
+import '../bloc/enter_cine/enter_cine_state.dart';
 
 class EnterDataScreen extends StatefulWidget {
   const EnterDataScreen({Key? key}) : super(key: key);

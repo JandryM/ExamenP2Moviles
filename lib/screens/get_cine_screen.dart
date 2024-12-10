@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import '../bloc/get_data/get_data_bloc.dart';
-import '../bloc/get_data/get_data_event.dart';
-import '../bloc/get_data/get_data_state.dart';
+import '../bloc/get_cine/get_cine_bloc.dart';
+import '../bloc/get_cine/get_cine_event.dart';
+import '../bloc/get_cine/get_cine_state.dart';
 
 class DataListScreen extends StatelessWidget {
   const DataListScreen({Key? key}) : super(key: key);

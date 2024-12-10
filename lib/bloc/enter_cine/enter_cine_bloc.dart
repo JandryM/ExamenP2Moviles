@@ -1,7 +1,7 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'enter_data_event.dart';
-import 'enter_data_state.dart';
+import 'enter_cine_event.dart';
+import 'enter_cine_state.dart';
 
 class EnterDataBloc extends Bloc<EnterDataEvent, EnterDataState> {
   EnterDataBloc() : super(EnterDataInitial()) {
